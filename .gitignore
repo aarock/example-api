@@ -3,6 +3,11 @@
 /node_modules
 /packages
 
+# Local
+.env
+.npmrc
+api-kit.json
+
 # Logs
 logs
 *.log
