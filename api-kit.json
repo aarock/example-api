@@ -1,0 +1,20 @@
+[
+    {
+        "type": "League",
+        "fields":[
+            { "name":"myString", "type":"String" },
+            { "name":"myNumber", "type":"Number" },
+            { "name":"myInt", "type":"Int" },
+            { "name":"myID", "type":"ID" },
+            { "name":"myBool", "type":"Boolean" },
+            { "name":"myTime", "type":"Time" },
+            { "name":"myDate", "type":"Date" },
+            { "name":"myDateTime", "type":"DateTime" },
+            { "name":"myJSON", "type":"JSON" }
+        ],
+        "relations": ["[Club!]"]
+    },
+    {
+        "type": "Club"
+    }
+]

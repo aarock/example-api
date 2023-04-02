@@ -1,0 +1,31 @@
+{
+  "name": "@aarock/example-api",
+  "description": "Example API",
+  "version": "1.0.0",
+  "author": "aarock",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nest start --watch",
+    "build": "nest build",
+    "start": "nest start",
+    "serve": "node dist/main",
+    "kit:up": "cd node_modules/@aarock/api-kit && docker compose up",
+    "kit:down": "cd node_modules/@aarock/api-kit && docker compose down",
+    "kit:gen": "./node_modules/@aarock/api-kit/dist/generate.js"
+  },
+  "dependencies": {
+    "@aarock/api-kit": "^1.0.2",
+    "@nestjs/common": "^9.3",
+    "@nestjs/config": "^2.3",
+    "@nestjs/core": "^9.3",
+    "@nestjs/platform-express": "^9.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17",
+    "@types/node": "^18.11",
+    "generate-template-files": "^3.2",
+    "typescript": "^4.7"
+  }
+}
